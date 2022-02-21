@@ -1,0 +1,6 @@
+framework module Pods_SILSTimeTable {
+  umbrella header "Pods-SILSTimeTable-umbrella.h"
+
+  export *
+  module * { export * }
+}

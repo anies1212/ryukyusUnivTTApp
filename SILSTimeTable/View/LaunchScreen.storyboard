@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2021 Apple. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="obG-Y5-kRd">
+                                <rect key="frame" x="0.0" y="855.5" width="414" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clip-studying-at-home.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lgh-xL-br2">
+                                <rect key="frame" x="20" y="264" width="374" height="295"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Lgh-xL-br2" secondAttribute="height" multiplier="374:295" id="y6I-jx-PJp"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo (4).png" translatesAutoresizingMaskIntoConstraints="NO" id="fTx-om-OX0">
+                                <rect key="frame" x="53" y="144" width="308" height="112"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="308" id="me1-mt-ZfU"/>
+                                    <constraint firstAttribute="height" constant="112" id="zKr-fr-1o0"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ClassistLogo (2).png" translatesAutoresizingMaskIntoConstraints="NO" id="Ntr-5Z-ZOa">
+                                <rect key="frame" x="86" y="127" width="243" height="82"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.69803921570000005" green="0.50588235290000005" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="243" id="Cij-CP-wFZ"/>
+                                    <constraint firstAttribute="height" constant="82" id="Rrc-HO-2cw"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="琉大生による琉大生のための時間割アプリ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YcA-hW-dYd">
+                                <rect key="frame" x="0.0" y="209" width="414" height="32"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="CpB-wY-g4Q"/>
+                                    <constraint firstAttribute="width" constant="414" id="yat-F2-502"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" red="0.69803921570000005" green="0.50588235290000005" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="5cz-MP-9tL"/>
+                            <constraint firstItem="Lgh-xL-br2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Bno-Ew-Z49"/>
+                            <constraint firstItem="fTx-om-OX0" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="53" id="CiJ-GK-6Dv"/>
+                            <constraint firstItem="Ntr-5Z-ZOa" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="86" id="DMd-CH-RQx"/>
+                            <constraint firstItem="Lgh-xL-br2" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="20" id="HgU-K5-f9a"/>
+                            <constraint firstItem="Lgh-xL-br2" firstAttribute="top" secondItem="fTx-om-OX0" secondAttribute="bottom" constant="8" id="J34-P2-QbG"/>
+                            <constraint firstItem="YcA-hW-dYd" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="KrN-eJ-Bfn"/>
+                            <constraint firstItem="Ntr-5Z-ZOa" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="83" id="PCw-LJ-PHL"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="YcA-hW-dYd" secondAttribute="trailing" id="RaJ-NI-Eix"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" symbolic="YES" id="SfN-ll-jLj"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="Ntr-5Z-ZOa" secondAttribute="trailing" constant="85" id="Vfr-5g-hyB"/>
+                            <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" id="Y44-ml-fuU"/>
+                            <constraint firstItem="fTx-om-OX0" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="100" id="dZL-rk-b4U"/>
+                            <constraint firstItem="YcA-hW-dYd" firstAttribute="top" secondItem="Ntr-5Z-ZOa" secondAttribute="bottom" id="fft-5X-aps"/>
+                            <constraint firstItem="fTx-om-OX0" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jsR-Gd-CFG"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="fTx-om-OX0" secondAttribute="trailing" constant="53" id="vdN-AC-ukQ"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="Lgh-xL-br2" secondAttribute="trailing" constant="20" id="vrF-pU-PZt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="187" y="192"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ClassistLogo (2).png" width="974" height="240"/>
+        <image name="clip-studying-at-home.png" width="1216" height="912"/>
+        <image name="logo (4).png" width="480" height="109"/>
+    </resources>
+</document>
